@@ -34,7 +34,7 @@ nav {
 .RV {
     width: 95px;
     border-radius: 10px;
-     
+    border: 2px solid red;
 }
 
 nav ul li {
@@ -151,6 +151,11 @@ nav ul li a:hover::after {
 }
 .tab-contents.active-tab{
     display: block;
+}
+
+.ME{
+    border-radius: 10px;
+    border: 2px solid rgb(97, 96, 96);
 }
 /*-------------------services-------------*/
 #services{
