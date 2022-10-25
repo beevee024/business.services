@@ -156,7 +156,13 @@ nav ul li a:hover::after {
 .ME{
     border-radius: 10px;
     border: 2px solid rgb(97, 96, 96);
+    transition: background 0.5s, transform 0.5s;
 }
+.ME:hover{
+    transform: translateY(-10px);
+    transform: scale(1.1);
+}
+
 /*-------------------services-------------*/
 #services{
     padding: 30px 0;
