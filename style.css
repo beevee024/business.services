@@ -332,13 +332,13 @@ form .btn2{
     color: goldenrod;
 }
 /*-----------css for small screens---------------*/
-nav .fas{
+nav .fa-solid{
     display: none;
 }
 
 @media only screen and (max-width: 600px){
     #header{
-        background: url(radio.jpg);
+        background-image: url(radio.jpg);
     }
     .header-text{
         margin-top: 100%;
@@ -347,7 +347,7 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
-    nav .fas{
+    nav .fa-solid{
         display: block;
         font-size: 25px;
     }
@@ -367,7 +367,7 @@ nav .fas{
         display: block;
         margin: 25px;
     }
-    nav ul .fas{
+    nav ul .fa-solid{
         position: absolute;
         top: 25px;
         left: 25px;
